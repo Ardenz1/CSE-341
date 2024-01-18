@@ -1,0 +1,26 @@
+{
+    "contact": {
+            "firstName": "Carrie",
+            "lastName": "Jones",
+            "email": "carrieJ@gmail.com",
+            "favoriteColor": "pink",
+            "birthday": "05/31/01"
+        },
+        "contact2": {
+            "firstName": "John",
+            "lastName": "Jones",
+            "email": "johnJ@gmail.com",
+            "favoriteColor": "green",
+            "birthday": "02/04/07"
+        },
+        
+        "contact3": {
+            "firstName": "Caleb",
+            "lastName": "Thomas",
+            "email": "calebT@gmail.com",
+            "favoriteColor": "blue",
+            "birthday": "08/19/98"
+        }      
+
+
+}
