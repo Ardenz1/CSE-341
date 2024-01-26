@@ -33,12 +33,40 @@ content-type: application/json
 }
 
 ###delete contact  
-DELETE http://localhost:8080/contacts/65b29d5e565eb8dc40ea0ddf HTTP/1.1
+DELETE http://localhost:8080/contacts/65b299d4565eb8dc40ea0ddc HTTP/1.1
 
 
 #Render
 ### render all contacts
 Get https://week1cse-341.onrender.com/contacts
+
+###POST
+POST https://week1cse-341.onrender.com/contacts HTTP/1.1 
+ content-type: application/json
+
+{
+  "firstName": "Charlie",
+  "lastName": "Brown",
+  "email": "charlieB@gmail.com",
+  "favoriteColor": "purple",
+  "birthday": "07/11/95"
+}
+
+###PUT 
+PUT https://week1cse-341.onrender.com/contacts/65a9819a8921f52dee618915 HTTP/1.1 
+content-type: application/json
+
+{
+    "firstName": "Carrie",
+    "lastName": "Jones",
+    "email": "carrieJ@gmail.com",
+    "favoriteColor": "red",
+    "birthday": "05/31/01"
+}
+
+###DELETE
+DELETE https://week1cse-341.onrender.com/contacts/65b299d4565eb8dc40ea0ddd HTTP/1.1 
+
 ### render contact 1
 Get https://week1cse-341.onrender.com/contacts/65a9819a8921f52dee618915
 ### render contact 2
