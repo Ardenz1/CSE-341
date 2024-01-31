@@ -33,7 +33,7 @@ content-type: application/json
 }
 
 ###delete contact  
-DELETE http://localhost:8080/contacts/65b299d4565eb8dc40ea0ddc HTTP/1.1
+DELETE http://localhost:8080/contacts/65b4273f8dfac3a36fea00d3 HTTP/1.1
 
 
 #Render
@@ -65,7 +65,7 @@ content-type: application/json
 }
 
 ###DELETE
-DELETE https://week1cse-341.onrender.com/contacts/65b299d4565eb8dc40ea0ddd HTTP/1.1 
+DELETE https://week1cse-341.onrender.com/contacts/65b57b2055b73c1b83530a69 HTTP/1.1 
 
 ### render contact 1
 Get https://week1cse-341.onrender.com/contacts/65a9819a8921f52dee618915
