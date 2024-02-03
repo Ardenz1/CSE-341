@@ -35,6 +35,9 @@ content-type: application/json
 ###delete contact  
 DELETE http://localhost:8080/contacts/65b4273f8dfac3a36fea00d3 HTTP/1.1
 
+# URL for api-docs on localhost 
+http://localhost:8080/api-docs/#/
+
 
 #Render
 ### render all contacts
@@ -73,3 +76,6 @@ Get https://week1cse-341.onrender.com/contacts/65a9819a8921f52dee618915
 Get https://week1cse-341.onrender.com/contacts/65a981c78921f52dee618916
 ### render contact 3
 Get https://week1cse-341.onrender.com/contacts/65a981d98921f52dee618918
+
+#API Docs on render
+https://week1cse-341.onrender.com/api-docs/
